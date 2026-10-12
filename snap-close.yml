@@ -1,0 +1,435 @@
+- generic [ref=f5e3]:
+  - generic:
+    - link "본문 바로가기" [ref=f5e4] [cursor=pointer]:
+      - /url: "#section_content"
+    - link "주 메뉴 바로가기" [ref=f5e6] [cursor=pointer]:
+      - /url: "#header"
+  - banner [ref=f5e8]:
+    - heading [level=1] [ref=f5e9]:
+      - link "네이버지도" [ref=f5e10] [cursor=pointer]:
+        - /url: https://www.naver.com
+    - navigation [ref=f5e12]:
+      - list [ref=f5e13]:
+        - listitem [ref=f5e14]:
+          - button "지도 홈 선택됨" [ref=f5e15] [cursor=pointer]:
+            - generic [ref=f5e21]: 지도 홈
+            - generic [ref=f5e22]: 선택됨
+        - listitem [ref=f5e23]:
+          - button "길찾기" [ref=f5e24] [cursor=pointer]
+        - listitem [ref=f5e30]:
+          - button "버스" [ref=f5e31] [cursor=pointer]
+        - listitem [ref=f5e37]:
+          - button "지하철" [ref=f5e38] [cursor=pointer]
+        - listitem [ref=f5e44]:
+          - button "기차" [ref=f5e45] [cursor=pointer]
+        - listitem [ref=f5e51]:
+          - button "new 저장" [ref=f5e52] [cursor=pointer]:
+            - generic [ref=f5e53]: new
+            - generic [ref=f5e59]: 저장
+        - listitem [ref=f5e60]:
+          - button "더보기" [ref=f5e61] [cursor=pointer]
+    - generic [ref=f5e68]:
+      - strong [ref=f5e69]: 사용자 링크
+      - list [ref=f5e70]:
+        - listitem [ref=f5e71]:
+          - link "로그인" [ref=f5e72] [cursor=pointer]:
+            - /url: https://nid.naver.com/nidlogin.login
+        - listitem [ref=f5e74]:
+          - link "서비스 더보기" [ref=f5e75] [cursor=pointer]:
+            - /url: javascript:;
+  - generic:
+    - application [ref=f5e153]:
+      - generic [ref=f5e156]:
+        - region "Map" [ref=f5e157]
+        - generic:
+          - generic:
+            - generic [ref=f5e159] [cursor=pointer]:
+              - generic [ref=f5e160]:
+                - img "플레이스"
+              - strong [ref=f5e162]: 코리아AI아카데미학원
+            - generic [ref=f5e202] [cursor=pointer]:
+              - img "플레이스" [ref=f5e204]
+              - strong [ref=f5e206]: 코리아IT아카데미 강남점
+      - generic [ref=f5e163]:
+        - img "NAVER" [ref=f5e165] [cursor=pointer]
+        - generic [ref=f5e166]: 100m
+    - generic [ref=f5e82]:
+      - generic [ref=f5e84]:
+        - button "검색" [ref=f5e85] [cursor=pointer]
+        - button "삭제" [ref=f5e86] [cursor=pointer]
+        - combobox [ref=f5e89]: 코리아AI아카데미
+      - generic [ref=f5e91]:
+        - status [ref=f5e92]
+        - generic [ref=f5e94]:
+          - heading "검색" [level=2] [ref=f5e95]
+          - iframe [active] [ref=f5e170]:
+            - generic [ref=f15e5]:
+              - list [ref=f15e7]:
+                - listitem [ref=f15e8]:
+                  - generic [ref=f15e9]:
+                    - button [ref=f15e11] [cursor=pointer]:
+                      - img "코리아AI아카데미학원" [ref=f15e13]
+                    - generic [ref=f15e14]:
+                      - button "코리아AI아카데미학원 쿠폰 컴퓨터" [ref=f15e16] [cursor=pointer]:
+                        - text: 코리아AI아카데미학원
+                        - generic [ref=f15e17]: 쿠폰
+                        - text: 컴퓨터
+                      - button "네이버 예약시 20% 할인 쿠폰" [ref=f15e24] [cursor=pointer]
+                      - button "운영 중 22:00에 운영 종료" [ref=f15e26] [cursor=pointer]
+                      - generic [ref=f15e29]:
+                        - generic [ref=f15e30]:
+                          - generic [ref=f15e31]: 현재 위치에서
+                          - text: 18km
+                        - button "서울 마포구 노고산동 상세주소 열기" [ref=f15e33] [cursor=pointer]:
+                          - generic [ref=f15e34]: 서울 마포구 노고산동
+                          - generic [ref=f15e35]: 상세주소 열기
+                  - generic [ref=f15e41]:
+                    - generic [ref=f15e43]:
+                      - button "출발" [ref=f15e44] [cursor=pointer]
+                      - button "도착" [ref=f15e45] [cursor=pointer]
+                    - button [ref=f15e47] [cursor=pointer]
+                    - button "예약" [ref=f15e50] [cursor=pointer]
+                - listitem [ref=f15e51]:
+                  - generic [ref=f15e52]:
+                    - button [ref=f15e54] [cursor=pointer]:
+                      - img "코리아AI아카데미학원" [ref=f15e56]
+                    - generic [ref=f15e57]:
+                      - button "코리아AI아카데미학원컴퓨터" [ref=f15e59] [cursor=pointer]
+                      - button "운영 중 22:00에 운영 종료" [ref=f15e61] [cursor=pointer]
+                      - generic [ref=f15e64]:
+                        - generic [ref=f15e65]:
+                          - generic [ref=f15e66]: 현재 위치에서
+                          - text: 30km
+                        - button "서울 노원구 상계동 상세주소 열기" [ref=f15e68] [cursor=pointer]:
+                          - generic [ref=f15e69]: 서울 노원구 상계동
+                          - generic [ref=f15e70]: 상세주소 열기
+                  - generic [ref=f15e76]:
+                    - generic [ref=f15e78]:
+                      - button "출발" [ref=f15e79] [cursor=pointer]
+                      - button "도착" [ref=f15e80] [cursor=pointer]
+                    - button [ref=f15e82] [cursor=pointer]
+                - listitem [ref=f15e84]:
+                  - generic [ref=f15e85]:
+                    - button [ref=f15e87] [cursor=pointer]:
+                      - img "코리아IT아카데미 강남점" [ref=f15e89]
+                    - generic [ref=f15e90]:
+                      - button "코리아IT아카데미 강남점 쿠폰 컴퓨터" [active] [ref=f15e92] [cursor=pointer]:
+                        - text: 코리아IT아카데미 강남점
+                        - generic [ref=f15e93]: 쿠폰
+                        - text: 컴퓨터
+                      - button "네이버 예약시 문화상품권 선착순 지급! 쿠폰" [ref=f15e100] [cursor=pointer]
+                      - button "운영 중 22:00에 운영 종료" [ref=f15e102] [cursor=pointer]
+                      - generic [ref=f15e105]:
+                        - generic [ref=f15e106]:
+                          - generic [ref=f15e107]: 현재 위치에서
+                          - text: 13km
+                        - button "서울 강남구 역삼동 상세주소 열기" [ref=f15e109] [cursor=pointer]:
+                          - generic [ref=f15e110]: 서울 강남구 역삼동
+                          - generic [ref=f15e111]: 상세주소 열기
+                  - generic [ref=f15e117]:
+                    - generic [ref=f15e119]:
+                      - button "출발" [ref=f15e120] [cursor=pointer]
+                      - button "도착" [ref=f15e121] [cursor=pointer]
+                    - button [ref=f15e123] [cursor=pointer]
+                    - button "예약" [ref=f15e126] [cursor=pointer]
+                - listitem [ref=f15e127]:
+                  - generic [ref=f15e128]:
+                    - button [ref=f15e130] [cursor=pointer]:
+                      - img "코리아IT아카데미학원 인천점" [ref=f15e132]
+                    - generic [ref=f15e133]:
+                      - button "코리아IT아카데미학원 인천점 쿠폰 컴퓨터" [ref=f15e135] [cursor=pointer]:
+                        - text: 코리아IT아카데미학원 인천점
+                        - generic [ref=f15e136]: 쿠폰
+                        - text: 컴퓨터
+                      - button "네이버 예약시 40% 할인 쿠폰" [ref=f15e143] [cursor=pointer]
+                      - button "운영 중 22:00에 운영 종료" [ref=f15e145] [cursor=pointer]
+                      - generic [ref=f15e148]:
+                        - generic [ref=f15e149]:
+                          - generic [ref=f15e150]: 현재 위치에서
+                          - text: 25km
+                        - button "인천 부평구 부평동 상세주소 열기" [ref=f15e152] [cursor=pointer]:
+                          - generic [ref=f15e153]: 인천 부평구 부평동
+                          - generic [ref=f15e154]: 상세주소 열기
+                  - generic [ref=f15e160]:
+                    - generic [ref=f15e162]:
+                      - button "출발" [ref=f15e163] [cursor=pointer]
+                      - button "도착" [ref=f15e164] [cursor=pointer]
+                    - button [ref=f15e166] [cursor=pointer]
+                    - button "예약" [ref=f15e169] [cursor=pointer]
+                - listitem [ref=f15e170]:
+                  - generic [ref=f15e171]:
+                    - button [ref=f15e173] [cursor=pointer]:
+                      - img "코리아IT아카데미학원 부산점" [ref=f15e175]
+                    - generic [ref=f15e176]:
+                      - button "코리아IT아카데미학원 부산점 쿠폰 컴퓨터" [ref=f15e178] [cursor=pointer]:
+                        - text: 코리아IT아카데미학원 부산점
+                        - generic [ref=f15e179]: 쿠폰
+                        - text: 컴퓨터
+                      - button "네이버 예약시 IT진로적성검사 무료 체험권 쿠폰 외" [ref=f15e186] [cursor=pointer]
+                      - button "운영 중 22:00에 운영 종료" [ref=f15e188] [cursor=pointer]
+                      - generic [ref=f15e191]:
+                        - generic [ref=f15e192]:
+                          - generic [ref=f15e193]: 현재 위치에서
+                          - text: 312km
+                        - button "부산 부산진구 부전동 상세주소 열기" [ref=f15e195] [cursor=pointer]:
+                          - generic [ref=f15e196]: 부산 부산진구 부전동
+                          - generic [ref=f15e197]: 상세주소 열기
+                  - generic [ref=f15e203]:
+                    - generic [ref=f15e205]:
+                      - button "출발" [ref=f15e206] [cursor=pointer]
+                      - button "도착" [ref=f15e207] [cursor=pointer]
+                    - button [ref=f15e209] [cursor=pointer]
+                    - button "예약" [ref=f15e212] [cursor=pointer]
+                - listitem [ref=f15e213]:
+                  - button [ref=f15e214] [cursor=pointer]:
+                    - img "돌아온 N예약 페스타. 2.3억원의 규모를 5천명 에게!" [ref=f15e215]
+                - listitem [ref=f15e216]:
+                  - generic [ref=f15e217]:
+                    - generic:
+                      - button
+                    - generic [ref=f15e218]:
+                      - button "코리아IT코딩아카데미학원 대전점 쿠폰 컴퓨터" [ref=f15e220] [cursor=pointer]:
+                        - text: 코리아IT코딩아카데미학원 대전점
+                        - generic [ref=f15e221]: 쿠폰
+                        - text: 컴퓨터
+                      - button "네이버 예약시 SKT K-뉴딜 2기 모집 쿠폰" [ref=f15e228] [cursor=pointer]
+                      - button "운영 중 18:00에 운영 종료" [ref=f15e230] [cursor=pointer]
+                      - generic [ref=f15e233]:
+                        - generic [ref=f15e234]:
+                          - generic [ref=f15e235]: 현재 위치에서
+                          - text: 122km
+                        - button "대전 서구 둔산동 상세주소 열기" [ref=f15e237] [cursor=pointer]:
+                          - generic [ref=f15e238]: 대전 서구 둔산동
+                          - generic [ref=f15e239]: 상세주소 열기
+                  - generic [ref=f15e245]:
+                    - generic [ref=f15e247]:
+                      - button "출발" [ref=f15e248] [cursor=pointer]
+                      - button "도착" [ref=f15e249] [cursor=pointer]
+                    - button [ref=f15e251] [cursor=pointer]
+                    - button "예약" [ref=f15e254] [cursor=pointer]
+                - listitem [ref=f15e255]:
+                  - generic [ref=f15e256]:
+                    - generic:
+                      - button
+                    - generic [ref=f15e257]:
+                      - button "코리아IT아카데미 대구점 쿠폰 컴퓨터" [ref=f15e259] [cursor=pointer]:
+                        - text: 코리아IT아카데미 대구점
+                        - generic [ref=f15e260]: 쿠폰
+                        - text: 컴퓨터
+                      - button "네이버 예약시 IT진로적성검사 무료 체험권 쿠폰 외" [ref=f15e267] [cursor=pointer]
+                      - button "운영 중 22:00에 운영 종료" [ref=f15e269] [cursor=pointer]
+                      - generic [ref=f15e272]:
+                        - generic [ref=f15e273]:
+                          - generic [ref=f15e274]: 현재 위치에서
+                          - text: 223km
+                        - button "대구 중구 덕산동 상세주소 열기" [ref=f15e276] [cursor=pointer]:
+                          - generic [ref=f15e277]: 대구 중구 덕산동
+                          - generic [ref=f15e278]: 상세주소 열기
+                  - generic [ref=f15e284]:
+                    - generic [ref=f15e286]:
+                      - button "출발" [ref=f15e287] [cursor=pointer]
+                      - button "도착" [ref=f15e288] [cursor=pointer]
+                    - button [ref=f15e290] [cursor=pointer]
+                    - button "예약" [ref=f15e293] [cursor=pointer]
+                - listitem [ref=f15e294]:
+                  - generic [ref=f15e295]:
+                    - generic:
+                      - button
+                    - generic [ref=f15e296]:
+                      - button "아크인텔리전스코리아소프트웨어개발" [ref=f15e298] [cursor=pointer]
+                      - button "영업 중 21:00에 영업 종료" [ref=f15e300] [cursor=pointer]
+                      - generic [ref=f15e303]:
+                        - generic [ref=f15e304]:
+                          - generic [ref=f15e305]: 현재 위치에서
+                          - text: 21km
+                        - button "서울 강동구 둔촌동 상세주소 열기" [ref=f15e307] [cursor=pointer]:
+                          - generic [ref=f15e308]: 서울 강동구 둔촌동
+                          - generic [ref=f15e309]: 상세주소 열기
+                  - generic [ref=f15e315]:
+                    - generic [ref=f15e317]:
+                      - button "출발" [ref=f15e318] [cursor=pointer]
+                      - button "도착" [ref=f15e319] [cursor=pointer]
+                    - button [ref=f15e321] [cursor=pointer]
+              - generic [ref=f15e323]:
+                - button "이전페이지" [disabled] [ref=f15e324]
+                - button "1" [ref=f15e328] [cursor=pointer]
+                - button "다음페이지" [disabled] [ref=f15e329]
+      - generic [ref=f5e188]:
+        - status [ref=f5e189]
+        - iframe [ref=f5e193]:
+          - generic [ref=f17e4]:
+            - banner [ref=f17e5]:
+              - button "이전 페이지" [ref=f17e6] [cursor=pointer]
+              - heading "코리아IT아카데미 강남점" [level=1] [ref=f17e10]
+              - button "저장" [ref=f17e11] [cursor=pointer]
+              - button "페이지 닫기" [ref=f17e15] [cursor=pointer]
+            - main [ref=f17e20]:
+              - generic [ref=f17e22]:
+                - generic [ref=f17e23]: 코리아IT아카데미 강남점
+                - generic [ref=f17e25]:
+                  - generic [ref=f17e26]:
+                    - text: 컴퓨터
+                    - button "리뷰 5,645" [ref=f17e28] [cursor=pointer]
+                  - generic [ref=f17e29]:
+                    - emphasis [ref=f17e30]: 운영 중
+                    - text: 22:00에 운영 종료
+                - list [ref=f17e34]:
+                  - listitem [ref=f17e35]:
+                    - button [ref=f17e36] [cursor=pointer]
+                  - listitem [ref=f17e37]:
+                    - button [ref=f17e38] [cursor=pointer]
+                  - listitem [ref=f17e39]:
+                    - button "IT꼬북이" [ref=f17e40] [cursor=pointer]
+                  - listitem [ref=f17e44]:
+                    - button [ref=f17e45] [cursor=pointer]
+                  - listitem [ref=f17e46]:
+                    - button [ref=f17e47] [cursor=pointer]
+                  - listitem [ref=f17e48]:
+                    - button "코리아정보보안아이티" [ref=f17e49] [cursor=pointer]
+                  - listitem [ref=f17e53]:
+                    - button "코리아정보보안아이티" [ref=f17e54] [cursor=pointer]
+                  - listitem [ref=f17e58]:
+                    - button "코리아정보보안아이티" [ref=f17e59] [cursor=pointer]
+                  - listitem [ref=f17e63]:
+                    - button "코리아정보보안아이티" [ref=f17e64] [cursor=pointer]
+                  - listitem [ref=f17e68]:
+                    - button "생각을 현실로" [ref=f17e69] [cursor=pointer]
+                  - listitem [ref=f17e73]:
+                    - button [ref=f17e74] [cursor=pointer]
+                - generic [ref=f17e83]:
+                  - button "출발" [ref=f17e85] [cursor=pointer]
+                  - button "도착" [ref=f17e87] [cursor=pointer]
+                  - button "거리뷰" [ref=f17e89] [cursor=pointer]
+                  - link "공유" [ref=f17e93] [cursor=pointer]:
+                    - /url: "#"
+                  - button "알림받기" [ref=f17e97] [cursor=pointer]
+                - button "예약" [ref=f17e107] [cursor=pointer]
+              - tablist [ref=f17e111]:
+                - generic [ref=f17e114]:
+                  - tab "홈" [selected] [ref=f17e115] [cursor=pointer]
+                  - tab "소식" [ref=f17e117] [cursor=pointer]
+                  - tab "예약" [ref=f17e119] [cursor=pointer]
+                  - tab "리뷰" [ref=f17e121] [cursor=pointer]
+                  - tab "사진" [ref=f17e123] [cursor=pointer]
+                  - tab "정보" [ref=f17e125] [cursor=pointer]
+              - generic [ref=f17e128]:
+                - generic [ref=f17e130]:
+                  - list [ref=f17e135]:
+                    - listitem [ref=f17e136]:
+                      - generic [ref=f17e137]:
+                        - generic [ref=f17e138]: 쿠폰
+                        - generic [ref=f17e142]:
+                          - button [ref=f17e143] [cursor=pointer]:
+                            - generic [ref=f17e148]:
+                              - generic [ref=f17e149]: 예약
+                              - text: 문화상품권 선착순 지급! 쿠폰
+                          - button "다운로드" [ref=f17e152] [cursor=pointer]
+                  - list [ref=f17e160]:
+                    - listitem [ref=f17e161]:
+                      - button "소식 EVENT 2026.09.29. ~ 2026.10.31. 🚨SKT가 직접 참여하는 AI 인프라·보안과정 추가1,2기 모집중 🔥" [ref=f17e162] [cursor=pointer]:
+                        - img "소식" [ref=f17e165]
+                        - generic [ref=f17e166]:
+                          - generic [ref=f17e167]:
+                            - generic [ref=f17e171]: EVENT
+                            - text: 2026.09.29. ~ 2026.10.31.
+                          - generic [ref=f17e172]: 🚨SKT가 직접 참여하는 AI 인프라·보안과정 추가1,2기 모집중 🔥
+                - generic [ref=f17e173]:
+                  - generic [ref=f17e175]:
+                    - generic [ref=f17e176]:
+                      - strong [ref=f17e177]:
+                        - generic [ref=f17e180]: 주소
+                      - generic [ref=f17e181]:
+                        - button [ref=f17e182] [cursor=pointer]
+                        - generic [ref=f17e186]:
+                          - generic [ref=f17e187]: "2"
+                          - text: 역삼역 3번 출구에서 21m
+                          - generic [ref=f17e189]: 미터
+                    - generic [ref=f17e190]:
+                      - strong [ref=f17e191]:
+                        - generic [ref=f17e194]: 찾아가는길
+                      - button "역삼역 3번 출구 나오자 마 왼편에 있는 화이... 내용 더보기" [ref=f17e197] [cursor=pointer]:
+                        - text: 역삼역 3번 출구 나오자 마 왼편에 있는 화이...
+                        - generic [ref=f17e198]: 내용 더보기
+                    - generic [ref=f17e202]:
+                      - strong [ref=f17e203]:
+                        - generic [ref=f17e206]: 영업시간
+                      - button "운영 중 22시 0분에 운영 종료 펼쳐보기" [ref=f17e208] [cursor=pointer]:
+                        - generic [ref=f17e210]:
+                          - generic [ref=f17e211]:
+                            - emphasis [ref=f17e212]: 운영 중
+                            - generic [ref=f17e213]:
+                              - time [aria-hidden] [ref=f17e214]: 22:00에 운영 종료
+                              - generic [ref=f17e215]: 22시 0분에 운영 종료
+                          - generic [ref=f17e216]: 펼쳐보기
+                    - generic [ref=f17e220]:
+                      - strong [ref=f17e221]:
+                        - generic [ref=f17e224]: 전화번호
+                      - generic [ref=f17e225]:
+                        - text: 02-538-0021
+                        - button "복사" [ref=f17e227] [cursor=pointer]
+                    - generic [ref=f17e228]:
+                      - strong [ref=f17e229]:
+                        - generic [ref=f17e232]: 홈페이지
+                      - generic [ref=f17e233]:
+                        - button "https://gangnam.koreaisacademy.com/" [ref=f17e235] [cursor=pointer]
+                        - generic [ref=f17e236]:
+                          - button "인스타그램" [ref=f17e238] [cursor=pointer]
+                          - button "유튜브" [ref=f17e240] [cursor=pointer]
+                          - button "블로그" [ref=f17e242] [cursor=pointer]
+                    - generic [ref=f17e243]:
+                      - strong [ref=f17e244]:
+                        - generic [ref=f17e247]: 편의
+                      - generic [ref=f17e248]: 예약, 방문접수/출장, 무선 인터넷, 남/녀 화장실 구분
+                  - button "정보 더보기" [ref=f17e252] [cursor=pointer]:
+                    - generic [ref=f17e253]: 정보
+                    - generic [ref=f17e254]: 더보기
+                - generic [ref=f17e263]: 로딩중
+                - button [ref=f17e271] [cursor=pointer]:
+                  - generic [ref=f17e272]: 알고 계신 정보와 다른 정보가 있나요?사진으로 간단하게 제보해 주세요.
+                  - generic [ref=f17e274]: 정보 수정 제안하기
+            - contentinfo [ref=f17e277]:
+              - generic [ref=f17e278]:
+                - button "이용약관" [ref=f17e279] [cursor=pointer]
+                - button "고객센터" [ref=f17e280] [cursor=pointer]
+                - button "리뷰운영정책" [ref=f17e281] [cursor=pointer]
+                - button "신고센터" [ref=f17e282] [cursor=pointer]
+              - button "네이버" [ref=f17e284] [cursor=pointer]
+        - button "패널 접기" [expanded] [ref=f5e200] [cursor=pointer]
+      - button "패널 접기" [expanded] [ref=f5e102] [cursor=pointer]
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic [ref=f5e104]:
+                - button "일반지도" [ref=f5e105] [cursor=pointer]
+                - button "위성지도" [ref=f5e107] [cursor=pointer]
+                - button "지형지도" [ref=f5e109] [cursor=pointer]
+              - generic [ref=f5e111]:
+                - button "테마" [ref=f5e112] [cursor=pointer]
+                - button "저장" [ref=f5e114] [cursor=pointer]
+                - button "지적편집도" [ref=f5e116] [cursor=pointer]
+                - button "거리뷰" [ref=f5e118] [cursor=pointer]
+              - generic [ref=f5e120]:
+                - button "반경측정" [ref=f5e121] [cursor=pointer]
+                - button "면적측정" [ref=f5e123] [cursor=pointer]
+                - button "거리측정" [ref=f5e125] [cursor=pointer]
+              - generic [ref=f5e127]:
+                - button "다운로드" [ref=f5e128] [cursor=pointer]
+                - button "인쇄" [ref=f5e130] [cursor=pointer]
+                - button "공유하기" [ref=f5e132] [cursor=pointer]
+            - generic:
+              - button "접속위치" [ref=f5e136] [cursor=pointer]
+              - generic [ref=f5e142]:
+                - button "확대" [ref=f5e143] [cursor=pointer]
+                - generic [ref=f5e145]:
+                  - slider "줌 슬라이더" [ref=f5e149] [cursor=pointer]: "67"
+                  - generic:
+                    - button "부동산"
+                    - button "거리"
+                    - button "동"
+                    - button "읍/면"
+                    - button "시/군/구"
+                    - button "시/도"
+                - button "축소" [ref=f5e150] [cursor=pointer]
+  - status [ref=f5e152]

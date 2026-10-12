@@ -1,0 +1,49 @@
+.new-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.new-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.card-list {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 150px;
+    cursor: default;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.card-img {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+}
+
+.card-title {
+    font-size: 14px;
+}
+
+.card-price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-delivery {
+    font-size: 12px;
+    color: gray;
+}
+
+.card-rating {
+    font-size: 12px;
+    color: orange;
+}
