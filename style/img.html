@@ -1,27 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .img-list {
-            display: flex;
-            gap: 16px;
-            align-items: flex-start;
-        }
-        .img-list img {
-            min-width: 0;
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
+    <title>이미지 나열 | CSS 연습</title>
+    <meta name="description" content="flex 레이아웃으로 고양이 사진과 캐릭터 아이콘 이미지를 가로로 나열하고, max-width와 height auto 속성으로 이미지 크기를 조절하는 방법을 연습하는 CSS 이미지 배치 예제 페이지입니다. 실습 결과를 브라우저에서 바로 확인할 수 있습니다.">
+    <meta property="og:title" content="이미지 나열 | CSS 연습">
+    <meta property="og:description" content="flex 레이아웃으로 고양이 사진과 캐릭터 아이콘 이미지를 가로로 나열하고, max-width와 height auto 속성으로 이미지 크기를 조절하는 방법을 연습하는 CSS 이미지 배치 예제 페이지입니다. 실습 결과를 브라우저에서 바로 확인할 수 있습니다.">
+    <link rel="stylesheet" href="img.css">
 </head>
 <body>
-    <div class="img-list">
-        <img src="../images/cat.jpg" alt="cat" width="5184" height="3456">
-        <img src="../images/icon01.jpg" alt="icon 01" width="200" height="200">
-        <img src="../images/icon02.jpg" alt="icon 02" width="200" height="200">
-    </div>
+    <main>
+        <h1>이미지 나열</h1>
+        <section class="img-list">
+            <img src="../images/cat.jpg" alt="고양이 사진" width="5184" height="3456">
+            <img src="../images/icon01.jpg" alt="눈을 가늘게 뜬 갈색 사자 캐릭터 아이콘" width="200" height="200">
+            <img src="../images/icon02.jpg" alt="하얀 입을 가진 베이지색 캐릭터 아이콘" width="200" height="200">
+        </section>
+    </main>
 </body>
 </html>

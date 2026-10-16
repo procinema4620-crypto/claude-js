@@ -1,30 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>position</title>
+    <title>position | CSS 연습</title>
+    <meta name="description" content="position의 relative, absolute, fixed 속성으로 컨테이너 안 아이콘 이미지의 위치를 잡고 화면 상단에 고정되는 카테고리 메뉴를 만들어 보는 CSS 레이아웃 연습 예제 페이지입니다. 실습 결과를 브라우저에서 바로 확인할 수 있습니다.">
+    <meta property="og:title" content="position | CSS 연습">
+    <meta property="og:description" content="position의 relative, absolute, fixed 속성으로 컨테이너 안 아이콘 이미지의 위치를 잡고 화면 상단에 고정되는 카테고리 메뉴를 만들어 보는 CSS 레이아웃 연습 예제 페이지입니다. 실습 결과를 브라우저에서 바로 확인할 수 있습니다.">
     <link rel="stylesheet" href="style/position.css">
 </head>
 <body>
-    <div class="container">
-        <img class="icon01" src="images/icon01.jpg" alt="icon01">
-        <img class="icon02" src="images/icon02.jpg" alt="icon02">
-    </div>
-    <ul class="header">
-        <li>테크·가전</li>
-        <li>홈·리빙</li>
-        <li>뷰티</li>
-        <li>패션</li>
-        <li>푸드</li>
-        <li>도서</li>
-        <li>전자책·클래스</li>
-        <li>키즈</li>
-        <li>스포츠·아웃도어</li>
-        <li>캐릭터·굿즈</li>
-        <li>여행</li>
-        <li>후원・팬덤</li>
-        <li>반려동물</li>
-    </ul>
+    <header>
+        <nav>
+            <ul class="header">
+                <li>테크·가전</li>
+                <li>홈·리빙</li>
+                <li>뷰티</li>
+                <li>패션</li>
+                <li>푸드</li>
+                <li>도서</li>
+                <li>전자책·클래스</li>
+                <li>키즈</li>
+                <li>스포츠·아웃도어</li>
+                <li>캐릭터·굿즈</li>
+                <li>여행</li>
+                <li>후원・팬덤</li>
+                <li>반려동물</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="visually-hidden">position 예제</h1>
+        <section class="container">
+            <img class="icon01" src="images/icon01.jpg" alt="눈을 가늘게 뜬 갈색 사자 캐릭터 아이콘" width="200" height="200">
+            <img class="icon02" src="images/icon02.jpg" alt="하얀 입을 가진 베이지색 캐릭터 아이콘" width="200" height="200">
+        </section>
+    </main>
 </body>
 </html>

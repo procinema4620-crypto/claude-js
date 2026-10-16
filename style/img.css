@@ -1,0 +1,11 @@
+.img-list {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.img-list img {
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+}
